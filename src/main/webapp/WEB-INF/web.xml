@@ -4,4 +4,12 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>simple-servlet</servlet-name>
+    <servlet-class>fr.philippe.javaweb.controller.SimpleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>simple-servlet</servlet-name>
+    <url-pattern>/simple</url-pattern>
+  </servlet-mapping>
 </web-app>
