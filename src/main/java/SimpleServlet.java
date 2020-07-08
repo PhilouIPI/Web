@@ -13,7 +13,7 @@ public class SimpleServlet extends HttpServlet {
         //super.doGet(req, resp);
         //set response content type
         resp.setContentType("text/html");
-
+        //test 1
         //Actual logic goes here
         PrintWriter out = resp.getWriter();
         out.println("<h1>"+ TEST_MESSAGE + "</h1");

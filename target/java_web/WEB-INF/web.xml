@@ -12,4 +12,5 @@
     <servlet-name>simple-servlet</servlet-name>
     <url-pattern>/simple</url-pattern>
   </servlet-mapping>
+
 </web-app>
