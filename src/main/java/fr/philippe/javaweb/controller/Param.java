@@ -14,6 +14,6 @@ public class Param extends HttpServlet {
         resp.setContentType("text/html");
         PrintWriter out = resp.getWriter();
         final String MESSAGE_PARAM = req.getParameter("pseudo");
-        out.println("Bonjour "+ MESSAGE_PARAM + " ! </br>");
+        out.println("Bonjour"+ MESSAGE_PARAM + " ! </br>");
             }
 }
